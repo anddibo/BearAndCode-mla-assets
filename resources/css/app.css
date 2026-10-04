@@ -2,8 +2,46 @@
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
+@source "../**/*.blade.php";
+@source "../**/*.js";
 
 @theme {
+    --color-blue-base: #7988FD;
+    --color-blue-100: #E4E8FE;
+    --color-blue-200: #B1BFE4;
+    --color-blue-300: #C9D1FE;
+    --color-blue-400: #9AA6FD;
+    --color-blue-500: #7988FD;
+    --color-blue-600: #5865D9;
+    --color-blue-700: #3C47B6;
+    --color-blue-800: #262F92;
+    --color-blue-900: #171D79;
+
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --font-display: Montserrat;
+
+    --font-size-title-1: 68px;
+    --line-height-title-1: 74px;
+
+    --font-size-title-2: 48px;
+    --line-height-title-2: 62px;
+
+    --font-size-title-3: 36px;
+    --line-height-title-3: 46.8px;
+
+    --font-size-title-4: 28px;
+    --line-height-title-4: 36.4px;
+
+    --font-size-title-5: 16px;
+    --line-height-title-5: 20.8px;
+
+    --shadow-hard: 0px 2px 4px rgba(0, 0, 0, 0.16);
+    --shadow-regular: 0px 4px 23px rgba(0, 0, 0, 0.12);
+    --shadow-medium: 0px 4px 22px rgba(0, 0, 0, 0.06);
+    --shadow-big: 1px 5px 22px 4px rgba(0, 0, 0, 0.15);
+    --shadow-card: 0px 7px 20px rgba(0, 0, 0, 0.08);
+    --shadow-badge: 0px 2px 8px rgba(0, 0, 0, 0.08), 0px 20px 32px rgba(0, 0, 0, 0.24);
 }
+
