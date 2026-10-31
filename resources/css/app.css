@@ -4,6 +4,7 @@
 @source '../../storage/framework/views/*.php';
 @source "../**/*.blade.php";
 @source "../**/*.js";
+@source inline("bg-blue-{100,200,300,400,500,600,700,800,900}");
 
 @theme {
     --color-blue-base: #7988FD;
